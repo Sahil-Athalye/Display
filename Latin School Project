@@ -1,0 +1,332 @@
+USE master 
+IF DB_ID('LSP_edw') IS NOT NULL 
+BEGIN 
+    ALTER DATABASE LSP_edw SET OFFLINE WITH ROLLBACK IMMEDIATE; 
+    ALTER DATABASE LSP_edw SET ONLINE; 
+    DROP DATABASE LSP_edw; 
+END 
+CREATE DATABASE LSP_edw 
+GO 
+USE LSP_edw
+
+CREATE TABLE Address( 
+    AddressID int NOT NULL IDENTITY (1,1) 
+    ,AddressType varchar(10) NULL, 
+    AddressLine varchar(50) NOT NULL, 
+    City varchar(25) NULL, 
+    State varchar(10) NULL, 
+    PostalCode varchar(15) NULL, 
+    Country varchar(25) NULL, 
+    PersonID int NULL, 
+    CONSTRAINT PK_Address PRIMARY KEY CLUSTERED(AddressID) 
+)
+
+GO 
+CREATE TABLE dbo.ClassList ( 
+    ClassListID int NOT NULL IDENTITY (1,1), 
+    SectionID int NOT NULL, PersonID int NOT NULL, 
+    Grade varchar(2) NULL, 
+    EnrollmentStatus char(2) NULL, 
+    TuitionAmount money NULL, 
+    CONSTRAINT PK_ClassList PRIMARY KEY CLUSTERED (ClassListID ASC) 
+)
+
+GO 
+CREATE TABLE dbo.Course ( 
+    CourseID int NOT NULL IDENTITY (1,1), 
+    CourseCode varchar(10) NULL, 
+    CourseTitle varchar(60) NULL, 
+    TotalWeeks int NULL, 
+    TotalHours numeric(9,2) NULL, 
+    FullCourseFee numeric(9,2) NULL, 
+    CourseDescription varchar(500) NULL, 
+    CONSTRAINT PK_Course PRIMARY KEY (CourseID) 
+)
+
+GO 
+CREATE TABLE dbo.Faculty ( 
+    FacultyID int NOT NULL IDENTITY (1,1), 
+    FacultyFirstName varchar(35) NULL, 
+    FacultyLastName varchar(50) NULL, 
+    FacultyEmail varchar(100) NULL, 
+    PrimaryPhone varchar(25) NULL, 
+    AlternatePhone varchar(25) NULL, 
+    FacultyAddressLine varchar(50) NULL, 
+    FacultyCity varchar(25) NULL, 
+    FacultyState char(2) NULL, 
+    FacultyPostalCode char(5) NULL, 
+    FacultyCountry varchar(50) NULL, 
+    CONSTRAINT PK_Faculty PRIMARY KEY (FacultyID) 
+)
+
+GO 
+CREATE TABLE dbo.FacultyPayment ( 
+    FacultyPaymentID int NOT NULL IDENTITY (1,1), 
+    FacultyID int NULL, 
+    SectionID int NULL, 
+    PrimaryInstructor CHAR(1) NOT NULL, 
+    PaymentAmount numeric(9,2) NULL, 
+    CONSTRAINT PK_FacultyPayment PRIMARY KEY (FacultyPaymentID) 
+)
+
+GO 
+CREATE TABLE dbo.Person ( 
+    PersonID int NOT NULL IDENTITY (1,1), 
+    LastName varchar(50) NULL, 
+    FirstName varchar(35) NULL, 
+    MiddleName varchar(35) NULL, 
+    Gender char(1) NULL, 
+    Phone varchar(20) NULL, 
+    Email varchar(100) NULL, 
+    CONSTRAINT PK_Person PRIMARY KEY (PersonID) 
+)
+
+GO 
+CREATE TABLE dbo.Room ( 
+    RoomID int NOT NULL IDENTITY (1,1), 
+    RoomName varchar(50) NULL, 
+    Capacity varchar(50) NULL, 
+    CONSTRAINT PK_Room PRIMARY KEY (RoomID) 
+)
+
+GO 
+CREATE TABLE dbo.Section ( 
+    SectionID int NOT NULL IDENTITY (10000,1),
+    CourseID int NOT NULL, TermID int NOT NULL, 
+    StartDate date NULL, EndDate date NULL, 
+    Days varchar(50) NULL, 
+    SectionStatus varchar(50) NULL, 
+    RoomID int NULL, 
+    CONSTRAINT PK_Section PRIMARY KEY (SectionID) 
+)
+
+GO 
+CREATE TABLE dbo.Term ( 
+    TermID int NOT NULL IDENTITY (1,1), 
+    TermCode char(4) NULL, 
+    TermName varchar(20) NULL, 
+    CalendarYear smallint NULL, 
+    AcademicYear smallint NULL, 
+    CONSTRAINT PK_Term PRIMARY KEY (TermID) 
+)
+
+GO 
+ALTER TABLE dbo.Address ADD CONSTRAINT FK_Address_Person FOREIGN KEY(PersonID) 
+REFERENCES dbo.Person (PersonID) 
+GO 
+ALTER TABLE dbo.ClassList ADD CONSTRAINT FK_ClassList_Person FOREIGN KEY(PersonID) 
+REFERENCES dbo.Person (PersonID) 
+GO 
+ALTER TABLE dbo.ClassList ADD CONSTRAINT FK_ClassList_Section FOREIGN KEY(SectionID) 
+REFERENCES dbo.Section (SectionID) 
+GO 
+ALTER TABLE dbo.FacultyPayment ADD CONSTRAINT FK_FacultyPayment_Faculty FOREIGN KEY(FacultyID) 
+REFERENCES dbo.Faculty (FacultyID) 
+GO 
+ALTER TABLE dbo.FacultyPayment ADD CONSTRAINT FK_FacultyPayment_Section FOREIGN KEY(SectionID) 
+REFERENCES dbo.Section (SectionID) 
+GO 
+ALTER TABLE dbo.Section ADD CONSTRAINT FK_Section_Course FOREIGN KEY(CourseID) 
+REFERENCES dbo.Course (CourseID) 
+GO 
+ALTER TABLE dbo.Section ADD CONSTRAINT FK_Section_Room FOREIGN KEY(RoomID) 
+REFERENCES dbo.Room (RoomID) 
+GO 
+ALTER TABLE dbo.Section ADD CONSTRAINT FK_Section_Term FOREIGN KEY(TermID) 
+REFERENCES dbo.Term (TermID) 
+GO
+
+INSERT INTO dbo.Course ( 
+    CourseCode, CourseTitle, TotalWeeks, TotalHours, FullCourseFee, CourseDescription ) 
+SELECT 
+    CourseCode, CourseTitle, TotalWeeks, TotalHours, FullCourseFee, CourseDescription 
+FROM master..Courses15 
+UNION 
+SELECT 
+    CourseCode, CourseTitle, TotalWeeks, TotalHours, FullCourseFee, CourseDescription 
+FROM master..Courses19
+
+INSERT INTO Faculty ( 
+    FacultyFirstName, FacultyLastName, FacultyEmail, PrimaryPhone, AlternatePhone, FacultyAddressLine, FacultyCity, FacultyState, FacultyPostalCode ) 
+SELECT 
+    FacultyFirstName, FacultyLastName, FacultyEmail, PrimaryPhone, AlternatePhone, FacultyAddressLine, FacultyCity, FacultyState, FacultyPostalCode 
+FROM master..Faculty15 
+UNION 
+SELECT 
+    FacultyFirstName, FacultyLastName, FacultyEmail, PrimaryPhone, AlternatePhone, FacultyAddressLine, FacultyCity, FacultyState, FacultyPostalCode 
+FROM master..Faculty19
+
+SET IDENTITY_INSERT Person ON 
+INSERT INTO Person ( 
+    PersonID, LastName, FirstName, MiddleName, Gender, Phone, Email 
+    ) 
+SELECT PersonID, LastName, FirstName, MiddleName, Gender, Phone, Email 
+FROM master..Persons15 
+UNION 
+SELECT 
+    PersonID, LastName, FirstName, MiddleName, Gender, Phone, Email 
+FROM master..Persons19 
+SET IDENTITY_INSERT Person OFF
+
+INSERT INTO Room ( 
+    RoomName, Capacity 
+) 
+SELECT 
+    RoomName, Capacity 
+FROM master..Rooms19
+
+SET IDENTITY_INSERT Term ON 
+INSERT INTO Term ( 
+    TermID, TermCode, TermName, CalendarYear, AcademicYear 
+    ) 
+SELECT 
+    TermID, TermCode, TermName, CalendarYear, AcademicYear 
+FROM master..Terms15 
+UNION 
+SELECT 
+    TermID, TermCode, TermName, CalendarYear, AcademicYear 
+FROM master..Terms19 
+SET IDENTITY_INSERT Term OFF
+
+SET IDENTITY_INSERT Section ON 
+INSERT INTO Section ( 
+    SectionID, CourseID, TermID, StartDate, EndDate, Days, SectionStatus, RoomID 
+    ) 
+SELECT 
+    SectionID, C.CourseID, TermID, StartDate, EndDate, Days, SectionStatus, R.RoomID 
+FROM master..Sections15 S 
+LEFT JOIN Room R ON R.RoomName = S.RoomName 
+LEFT JOIN Course C ON C.CourseCode = S.CourseCode 
+UNION 
+SELECT 
+    SectionID, C.CourseID, TermID, StartDate, EndDate, Days, SectionStatus, R.RoomID 
+FROM master..Sections19 S 
+LEFT JOIN Room R ON R.RoomName = S.RoomName 
+LEFT JOIN Course C ON C.CourseCode = S.CourseCode 
+SET IDENTITY_INSERT Section OFF
+
+INSERT INTO FacultyPayment ( 
+    FacultyID, SectionID, PrimaryInstructor, PaymentAmount 
+    ) 
+SELECT 
+    F.FacultyID, S.SectionID, 'Y', S.PrimaryPayment 
+FROM master..Sections15 S 
+JOIN Faculty F ON CONCAT(LEFT(FacultyFirstName,1),'. ',FacultyLastName) = S.PrimaryInstructor 
+UNION 
+SELECT 
+    F.FacultyID, S.SectionID, 'Y', S.PrimaryPayment 
+FROM master..Sections19 S 
+JOIN Faculty F ON CONCAT(LEFT(FacultyFirstName,1),'. ',FacultyLastName) = S.PrimaryInstructor 
+UNION 
+SELECT 
+    F.FacultyID, S.SectionID, 'N', S.SecondaryPayment 
+FROM master..Sections15 S 
+JOIN Faculty F ON CONCAT(LEFT(FacultyFirstName,1),'. ',FacultyLastName) = S.SecondaryInstructor 
+UNION 
+SELECT 
+    F.FacultyID, S.SectionID, 'N', S.SecondaryPayment 
+FROM master..Sections19 S 
+JOIN Faculty F ON CONCAT(LEFT(FacultyFirstName,1),'. ',FacultyLastName) = S.SecondaryInstructor
+
+INSERT INTO Address ( 
+    AddressType, AddressLine, City, State, PostalCode, Country, PersonID 
+    ) 
+SELECT 
+    'home', AddressLine, City, State, PostalCode, NULL, PersonID 
+FROM master..Persons15 P 
+WHERE AddressLine IS NOT NULL 
+UNION 
+SELECT 
+    'home', AddressLine, City, State, PostalCode, NULL, PersonID 
+FROM master..Persons19 P WHERE AddressLine IS NOT NULL
+
+INSERT INTO ClassList ( 
+    SectionID, PersonID, Grade, EnrollmentStatus, TuitionAmount 
+    ) 
+SELECT 
+    SectionID, PersonID, Grade, EnrollmentStatus, TuitionAmount 
+FROM master..[ClassList SU11-SU15] C 
+UNION 
+SELECT 
+    SectionID, PersonID, Grade, EnrollmentStatus, TuitionAmount 
+FROM master..[ClassList FA15-SU19] C
+
+GO 
+CREATE VIEW CourseRevenue_v AS 
+SELECT 
+    C.CourseCode , 
+    C.CourseTitle , 
+    COUNT(DISTINCT S.SectionID) AS SectionCount , 
+    SUM(CL.TuitionAmount) AS TotalRevenue , 
+    CAST(SUM(CL.TuitionAmount)/CAST(COUNT(S.SectionID) AS numeric) AS numeric(9,2)) AS AverageRevenue 
+FROM Course C 
+LEFT JOIN Section S ON S.CourseID = C.CourseID AND S.SectionStatus != 'CN' 
+LEFT JOIN ClassList CL ON CL.SectionID = S.SectionID
+GROUP BY C.CourseCode, C.CourseTitle
+
+GO 
+CREATE VIEW AnnualRevenue_v AS 
+WITH CTE AS ( 
+SELECT 
+    S.SectionID, SUM(CL.TuitionAmount) AS TotalTuition 
+FROM Section S 
+JOIN ClassList CL ON CL.SectionID = S.SectionID 
+GROUP BY S.SectionID ) 
+SELECT 
+    T.AcademicYear , 
+    SUM(CTE.TotalTuition) AS TotalTuition , 
+    SUM(FP.PaymentAmount) AS TotalFacultyPayments 
+FROM Course C 
+JOIN Section S ON S.CourseID = C.CourseID 
+JOIN Term T ON T.TermID = S.TermID 
+LEFT JOIN FacultyPayment FP ON FP.SectionID = S.SectionID 
+LEFT JOIN CTE ON CTE.SectionID = S.SectionID 
+GROUP BY T.AcademicYear
+
+GO 
+CREATE PROC StudentHistory_p @PersonID int AS 
+SELECT 
+    CONCAT(P.FirstName,' ',P.LastName) AS StudentName ,
+    S.SectionID ,
+    C.CourseCode ,
+    C.CourseTitle ,
+    CONCAT(F.FacultyFirstName,' ',F.FacultyLastName) AS FacultyName ,
+    T.TermCode ,
+    S.StartDate ,
+    CL.TuitionAmount ,
+    CL.Grade 
+FROM Person P 
+JOIN ClassList CL ON CL.PersonID = P.PersonID 
+JOIN Section S ON S.SectionID = CL.SectionID 
+JOIN Term T ON T.TermID = S.TermID 
+JOIN Course C ON C.CourseID = S.CourseID 
+JOIN FacultyPayment FP ON FP.SectionID = S.SectionID AND FP.PrimaryInstructor = 'Y' 
+JOIN Faculty F ON F.FacultyID = FP.FacultyID 
+WHERE P.PersonID = @PersonID 
+ORDER BY StartDate
+
+GO 
+CREATE PROC InsertPerson_p 
+    @FirstName varchar(35) ,
+    @LastName varchar(50) ,
+    @AddressType varchar(10) ,
+    @AddressLine varchar(50) ,
+    @City varchar(25) 
+AS 
+CREATE Table #Person(PersonID int) 
+INSERT INTO Person 
+(FirstName, LastName) 
+OUTPUT inserted.PersonID INTO #Person 
+VALUES(@FirstName,@LastName)
+INSERT INTO Address 
+(AddressType, AddressLine, City, PersonID) 
+SELECT @AddressType, @AddressLine, @City, #Person.PersonID 
+FROM #Person
+
+GO 
+SELECT * FROM CourseRevenue_v ORDER BY CourseCode
+SELECT * FROM AnnualRevenue_v ORDER BY AcademicYear
+EXEC StudentHistory_p 1400
+EXEC InsertPerson_p 'Eric','Williamson','work','500 Elm St.','North Pole'
+SELECT TOP 1 * FROM Person ORDER BY PersonID DESC
+SELECT TOP 1 * FROM Address ORDER BY AddressID DESC
