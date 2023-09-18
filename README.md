@@ -2,7 +2,7 @@
 Showcasing my labs and projects over the years
 
 
-"mm-4.c" is my own version of a dynamic memory allocator for C programs written in C. I undertook this project as part of a systems software course at my home university, it showcases malloc, realloc, calloc, and free capabilities using an explicit free list allocator.
+"Malloc.c" is my own version of a dynamic memory allocator for C programs written in C. I undertook this project as part of a systems software course at my home university, it showcases malloc, realloc, calloc, and free capabilities using an explicit free list allocator.
 
 "Predictive Modeling and Modeling Comparison" is a Jupyter notebook I completed as a final project for my data science class. It showcases various regression models and direct comparison in their effectiveness. It also includes effective feature engineering and data clean up prior to analysis.
 
