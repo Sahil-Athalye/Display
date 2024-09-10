@@ -1,6 +1,7 @@
 # Display
 Showcasing my labs and projects over the years
 
+"OS Projects" is a collection of labs completed with my group primarily written in C as part of Operating Systems and Organization (CSE 422S at Washington University in St. Louis). Lab 1 entails a kernel monitoring framework that uses kernel timers to schedule recurring events, uses kernel threads to perform deferrable work inside the kernel, and creates a simple monitoring framework that periodically captures basic information from kernelspace using kernel timers and kernel threads to manage the frequency and context of such information gathering. Lab 2 entails a memory management and paging kernel module that leverages the mmap() system call to perform virtual memory mappings for a process and can be configured to utilize either demand paging or pre-paging. Lab 3 entails code to allow multi-plexed interprocess communication between a client and server that re-assemble a text file from numbered fragments, uses low-level inter-process communication mechanisms to enable the server and clients to communicate with each other, and uses event multiplexing mechanisms to allow the server to interact with multiple clients concurrently.
 
 "Malloc.c" is my own version of a dynamic memory allocator for C programs written in C. I undertook this project as part of Intro to Systems Software (CSE361S at Washington University in St. Louis), it showcases malloc, realloc, calloc, and free capabilities using an explicit free list allocator.
 
