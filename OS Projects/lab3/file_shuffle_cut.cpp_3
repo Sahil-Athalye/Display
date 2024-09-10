@@ -1,0 +1,41 @@
+77     }
+19 const int success = 0;
+85     }
+44 // writes out a range of lines into a named output file
+120 
+54 
+97 
+1 // Author: Chris Gill
+38 int usage (const char *program_name, int result) {
+95         fragments = nlv.size();
+4 
+21 const int input_file_open_failed = -2;
+99     int lines_per_fragment = nlv.size() / fragments;
+5 // Compile
+121     return success;
+65 
+50     if (!ofs) {
+46                     vector<numbered_line>::const_iterator stop,
+7 
+98     // calculate number of lines per fragment, initialize iterators
+64 int main (int argc, char *argv[]) {
+20 const int wrong_number_of_arguments = -1;
+118     cout << fragments << " fragments" << endl;
+100     vector<numbered_line>::const_iterator start = nlv.begin();
+73     ifstream ifs (argv[file_name_index]);
+10 
+83         nlv.push_back(nl);
+113         stop = start + lines_per_fragment;
+92     istringstream iss (argv[fragments_index]);
+48 {
+61 }
+36 
+87     // shuffle the numbered lines in the vector
+67     if (argc != expected_argc) {
+40          << " <file name> <number of fragments>" << endl;
+34     string text;
+63 
+24 // constants for command line indexing
+93     iss >> fragments;
+78 
+74     if (!ifs) {

@@ -1,0 +1,41 @@
+80     vector<numbered_line> nlv;
+103     // output fragments of shuffled text into files    
+79     // fill a vector with numbered lines from the file
+89 
+81     numbered_line nl;
+106 
+0 // Program: file_shuffle_cut.cpp
+94     if (fragments > nlv.size()) {
+41     return result;
+88     random_shuffle (nlv.begin(), nlv.end());
+28 const int expected_argc = 3;
+52         return output_file_open_failed;
+43 
+16 using namespace std;
+60     return success;
+49     ofstream ofs (filename);
+105         if (stop > nlv.end() || fragment == fragments) stop = nlv.end();
+84         nl.number++;
+72     // check ability to open input file
+29 
+112         start += lines_per_fragment;
+6 // g++ -o file_shuffle_cut file_shuffle_cut.cpp
+45 int write_fragment (vector<numbered_line>::const_iterator iter,
+53     }
+76         return usage(argv[program_name_index], input_file_open_failed);
+8 // Run on source file
+33     int number;
+37 // outputs proper usage syntax for the program
+15 #include <sstream>
+25 const int program_name_index = 0;
+55     while (iter != stop) {
+70     }
+31 struct numbered_line {
+82     while (getline(ifs, nl.text)) {
+47                     const char * filename)
+111         if (result != success) return result;
+107         ostringstream file_name_stream;
+90     // extract (and possibly reduce) number of fragments to create
+117     cout << nlv.size() << " lines" << endl;
+23 
+122 }

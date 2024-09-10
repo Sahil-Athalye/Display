@@ -1,0 +1,7 @@
+make -C /project/scratch01/compile/a.dmitriev/linux_source/linux-rpi/ ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- M=/project/scratch01/compile/a.dmitriev/lab/lab-2/mod modules
+make[1]: Entering directory `/project/scratch01/compiling/a.dmitriev/linux_source/linux-rpi'
+  CC [M]  /project/scratch01/compile/a.dmitriev/lab/lab-2/mod/paging.o
+  MODPOST /project/scratch01/compile/a.dmitriev/lab/lab-2/mod/Module.symvers
+  CC [M]  /project/scratch01/compile/a.dmitriev/lab/lab-2/mod/paging.mod.o
+  LD [M]  /project/scratch01/compile/a.dmitriev/lab/lab-2/mod/paging.ko
+make[1]: Leaving directory `/project/scratch01/compiling/a.dmitriev/linux_source/linux-rpi'
