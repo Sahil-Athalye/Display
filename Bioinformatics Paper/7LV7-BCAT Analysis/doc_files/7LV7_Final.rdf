@@ -1,0 +1,1585 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="#item_1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1083-351X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dajnowicz</foaf:surname>
+                        <foaf:givenName>Steven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Parks</foaf:surname>
+                        <foaf:givenName>Jerry M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenName>Xiche</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gesler</foaf:surname>
+                        <foaf:givenName>Korie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kovalevsky</foaf:surname>
+                        <foaf:givenName>Andrey Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mueser</foaf:surname>
+                        <foaf:givenName>Timothy C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_3"/>
+        <link:link rdf:resource="#item_2"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Animals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Aspartate Aminotransferases</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Crystallography, X-Ray</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>enzyme catalysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>hydrogen bond</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Hydrogen Bonding</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Models, Molecular</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Protein Domains</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>pyridoxal phosphate</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Pyridoxal Phosphate</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>quantum chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Sus scrofa</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>X-ray crystallography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Direct evidence that an extended hydrogen-bonding network influences activation of pyridoxal 5'-phosphate in aspartate aminotransferase</dc:title>
+        <dcterms:abstract>Pyridoxal 5'-phosphate (PLP) is a fundamental, multifunctional enzyme cofactor used to catalyze a wide variety of chemical reactions involved in amino acid metabolism. PLP-dependent enzymes optimize specific chemical reactions by modulating the electronic states of PLP through distinct active site environments. In aspartate aminotransferase (AAT), an extended hydrogen bond network is coupled to the pyridinyl nitrogen of the PLP, influencing the electrophilicity of the cofactor. This network, which involves residues Asp-222, His-143, Thr-139, His-189, and structural waters, is located at the edge of PLP opposite the reactive Schiff base. We demonstrate that this hydrogen bond network directly influences the protonation state of the pyridine nitrogen of PLP, which affects the rates of catalysis. We analyzed perturbations caused by single- and double-mutant variants using steady-state kinetics, high resolution X-ray crystallography, and quantum chemical calculations. Protonation of the pyridinyl nitrogen to form a pyridinium cation induces electronic delocalization in the PLP, which correlates with the enhancement in catalytic rate in AAT. Thus, PLP activation is controlled by the proximity of the pyridinyl nitrogen to the hydrogen bond microenvironment. Quantum chemical calculations indicate that Asp-222, which is directly coupled to the pyridinyl nitrogen, increases the pKa of the pyridine nitrogen and stabilizes the pyridinium cation. His-143 and His-189 also increase the pKa of the pyridine nitrogen but, more significantly, influence the position of the proton that resides between Asp-222 and the pyridinyl nitrogen. These findings indicate that the second shell residues directly enhance the rate of catalysis in AAT.</dcterms:abstract>
+        <dc:date>2017-04-07</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 28232482
+PMCID: PMC5392587</dc:description>
+        <bib:pages>5970-5980</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1083-351X">
+        <prism:volume>292</prism:volume>
+        <dc:title>The Journal of Biological Chemistry</dc:title>
+        <dc:identifier>DOI 10.1074/jbc.M116.774588</dc:identifier>
+        <prism:number>14</prism:number>
+        <dcterms:alternative>J Biol Chem</dcterms:alternative>
+        <dc:identifier>ISSN 1083-351X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_3">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3/Dajnowicz et al. - 2017 - Direct evidence that an extended hydrogen-bonding .pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc5392587?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-10 20:52:48</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_2">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/28232482</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-10 20:52:41</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5392587/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0021-9258"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dajnowicz</foaf:surname>
+                        <foaf:givenName>Steven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Parks</foaf:surname>
+                        <foaf:givenName>Jerry M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenName>Xiche</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gesler</foaf:surname>
+                        <foaf:givenName>Korie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kovalevsky</foaf:surname>
+                        <foaf:givenName>Andrey Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mueser</foaf:surname>
+                        <foaf:givenName>Timothy C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6"/>
+        <link:link rdf:resource="#item_5"/>
+        <dc:title>Direct evidence that an extended hydrogen-bonding network influences activation of pyridoxal 5′-phosphate in aspartate aminotransferase</dc:title>
+        <dcterms:abstract>Pyridoxal 5′-phosphate (PLP) is a fundamental, multifunctional enzyme cofactor used to catalyze a wide variety of chemical reactions involved in amino acid metabolism. PLP-dependent enzymes optimize specific chemical reactions by modulating the electronic states of PLP through distinct active site environments. In aspartate aminotransferase (AAT), an extended hydrogen bond network is coupled to the pyridinyl nitrogen of the PLP, influencing the electrophilicity of the cofactor. This network, which involves residues Asp-222, His-143, Thr-139, His-189, and structural waters, is located at the edge of PLP opposite the reactive Schiff base. We demonstrate that this hydrogen bond network directly influences the protonation state of the pyridine nitrogen of PLP, which affects the rates of catalysis. We analyzed perturbations caused by single- and double-mutant variants using steady-state kinetics, high resolution X-ray crystallography, and quantum chemical calculations. Protonation of the pyridinyl nitrogen to form a pyridinium cation induces electronic delocalization in the PLP, which correlates with the enhancement in catalytic rate in AAT. Thus, PLP activation is controlled by the proximity of the pyridinyl nitrogen to the hydrogen bond microenvironment. Quantum chemical calculations indicate that Asp-222, which is directly coupled to the pyridinyl nitrogen, increases the pKa of the pyridine nitrogen and stabilizes the pyridinium cation. His-143 and His-189 also increase the pKa of the pyridine nitrogen but, more significantly, influence the position of the proton that resides between Asp-222 and the pyridinyl nitrogen. These findings indicate that the second shell residues directly enhance the rate of catalysis in AAT.</dcterms:abstract>
+        <dc:date>2017-4-7</dc:date>
+        <z:libraryCatalog>PubMed Central</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5392587/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-10 21:05:36</dcterms:dateSubmitted>
+        <dc:description>PMID: 28232482
+PMCID: PMC5392587</dc:description>
+        <bib:pages>5970-5980</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0021-9258">
+        <prism:volume>292</prism:volume>
+        <dc:title>The Journal of Biological Chemistry</dc:title>
+        <dc:identifier>DOI 10.1074/jbc.M116.774588</dc:identifier>
+        <prism:number>14</prism:number>
+        <dcterms:alternative>J Biol Chem</dcterms:alternative>
+        <dc:identifier>ISSN 0021-9258</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_6">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/6/Dajnowicz et al. - 2017 - Direct evidence that an extended hydrogen-bonding .pdf"/>
+        <dc:title>PubMed Central Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5392587/pdf/zbc5970.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-10 21:05:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_5">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed Central Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5392587/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-10 21:05:38</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3483818/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2090-2166"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Han</foaf:surname>
+                        <foaf:givenName>Jian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Collins</foaf:surname>
+                        <foaf:givenName>Lesley J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_9"/>
+        <link:link rdf:resource="#item_8"/>
+        <dc:title>Reconstruction of Sugar Metabolic Pathways of Giardia lamblia</dc:title>
+        <dcterms:abstract>Giardia lamblia is an “important” pathogen of humans, but as a diplomonad excavate it is evolutionarily distant from other eukaryotes and relatively little is known about its core metabolic pathways. KEGG, the widely referenced site for providing information of metabolism, does not yet include many enzymes from Giardia species. Here we identify Giardia's core sugar metabolism using standard bioinformatic approaches. By comparing Giardia proteomes with known enzymes from other species, we have identified enzymes in the glycolysis pathway, as well as some enzymes involved in the TCA cycle and oxidative phosphorylation. However, the majority of enzymes from the latter two pathways were not identifiable, indicating the likely absence of these functionalities. We have also found enzymes from the Giardia glycolysis pathway that appear more similar to those from bacteria. Because these enzymes are different from those found in mammals, the host organisms for Giardia, we raise the possibility that these bacteria-like enzymes could be novel drug targets for treating Giardia infections.</dcterms:abstract>
+        <dc:date>2012</dc:date>
+        <z:libraryCatalog>PubMed Central</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3483818/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:07:29</dcterms:dateSubmitted>
+        <dc:description>PMID: 23119161
+PMCID: PMC3483818</dc:description>
+        <bib:pages>980829</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2090-2166">
+        <prism:volume>2012</prism:volume>
+        <dc:title>International Journal of Proteomics</dc:title>
+        <dc:identifier>DOI 10.1155/2012/980829</dc:identifier>
+        <dcterms:alternative>Int J Proteomics</dcterms:alternative>
+        <dc:identifier>ISSN 2090-2166</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_9">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/9/Han and Collins - 2012 - Reconstruction of Sugar Metabolic Pathways of Giar.pdf"/>
+        <dc:title>PubMed Central Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3483818/pdf/IJPRO2012-980829.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:07:35</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_8">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed Central Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3483818/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:07:33</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="//scripts.iucr.org/cgi-bin/paper?kw5019">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0907-4449"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Castell</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mille</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Unge</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11"/>
+        <dc:title>Structural analysis of mycobacterial branched-chain aminotransferase: implications for inhibitor design</dc:title>
+        <dcterms:abstract>The branched-chain aminotransferase (BCAT) of Mycobacterium tuberculosis has been characterized as being essential to the survival of the bacterium. The enzyme is pyridoxal 5′-­phosphate-dependent and belongs to the aminotransferase IIIa subfamily, to which the human BCATs also belong. The overall sequence similarity is high within the subfamily and the sequence identity among the active-site residues is high. In order to identify structurally unique features of M. tuberculosis BCAT, X-ray structural and functional analyses of the closely related BCAT from M. smegmatis were carried out. The crystal structures include the apo form at 2.2 Å resolution and a 1.9 Å structure of the holo form cocrystallized with the inhibitor O-benzylhydroxylamine (Obe). The analyses highlighted the active-site residues Tyr209 and Gly243 as being structurally unique characteristics of the mycobacterial BCATs relative to the human BCATs. The inhibitory activities of Obe and ammonium sulfate were verified in an inhibition assay. Modelling of the inhibitor Obe in the substrate pocket indicated potential for the design of a mycobacterial-specific inhibitor.</dcterms:abstract>
+        <dc:date>2010-05-01</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Structural analysis of mycobacterial branched-chain aminotransferase</z:shortTitle>
+        <z:libraryCatalog>journals.iucr.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>//scripts.iucr.org/cgi-bin/paper?kw5019</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:31:20</dcterms:dateSubmitted>
+        <dc:description>Publisher: International Union of Crystallography</dc:description>
+        <bib:pages>549-557</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0907-4449">
+        <prism:volume>66</prism:volume>
+        <dc:title>Acta Crystallographica Section D: Biological Crystallography</dc:title>
+        <dc:identifier>DOI 10.1107/S0907444910004877</dc:identifier>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>Acta Cryst D</dcterms:alternative>
+        <dc:identifier>ISSN 0907-4449</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_11">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/11/Castell et al. - 2010 - Structural analysis of mycobacterial branched-chai.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.iucr.org/d/issues/2010/05/00/kw5019/kw5019.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:31:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_12">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1520-4804"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Günther</foaf:surname>
+                        <foaf:givenName>Judith</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hillig</foaf:surname>
+                        <foaf:givenName>Roman C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zimmermann</foaf:surname>
+                        <foaf:givenName>Katja</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kaulfuss</foaf:surname>
+                        <foaf:givenName>Stefan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lemos</foaf:surname>
+                        <foaf:givenName>Clara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nguyen</foaf:surname>
+                        <foaf:givenName>Duy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rehwinkel</foaf:surname>
+                        <foaf:givenName>Hartmut</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Habgood</foaf:surname>
+                        <foaf:givenName>Matthew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lechner</foaf:surname>
+                        <foaf:givenName>Christian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Neuhaus</foaf:surname>
+                        <foaf:givenName>Roland</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ganzer</foaf:surname>
+                        <foaf:givenName>Ursula</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Drewes</foaf:surname>
+                        <foaf:givenName>Mark</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chai</foaf:surname>
+                        <foaf:givenName>Jijie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bouché</foaf:surname>
+                        <foaf:givenName>Léa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_14"/>
+        <link:link rdf:resource="#item_13"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Amino Acids, Branched-Chain</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Keto Acids</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Transaminases</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>BAY-069, a Novel (Trifluoromethyl)pyrimidinedione-Based BCAT1/2 Inhibitor and Chemical Probe</dc:title>
+        <dcterms:abstract>The branched-chain amino acid transaminases (BCATs) are enzymes that catalyze the first reaction of catabolism of the essential branched-chain amino acids to branched-chain keto acids to form glutamate. They are known to play a key role in different cancer types. Here, we report a new structural class of BCAT1/2 inhibitors, (trifluoromethyl)pyrimidinediones, identified by a high-throughput screening campaign and subsequent optimization guided by a series of X-ray crystal structures. Our potent dual BCAT1/2 inhibitor BAY-069 displays high cellular activity and very good selectivity. Along with a negative control (BAY-771), BAY-069 was donated as a chemical probe to the Structural Genomics Consortium.</dcterms:abstract>
+        <dc:date>2022-11-10</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 36261130
+PMCID: PMC9661481</dc:description>
+        <bib:pages>14366-14390</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1520-4804">
+        <prism:volume>65</prism:volume>
+        <dc:title>Journal of Medicinal Chemistry</dc:title>
+        <dc:identifier>DOI 10.1021/acs.jmedchem.2c00441</dc:identifier>
+        <prism:number>21</prism:number>
+        <dcterms:alternative>J Med Chem</dcterms:alternative>
+        <dc:identifier>ISSN 1520-4804</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_14">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/14/Günther et al. - 2022 - BAY-069, a Novel (Trifluoromethyl)pyrimidinedione-.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9661481/pdf/jm2c00441.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:34:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_13">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/36261130</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:34:09</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_15">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1744-3091"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tremblay</foaf:surname>
+                        <foaf:givenName>L. W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blanchard</foaf:surname>
+                        <foaf:givenName>J. S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_17"/>
+        <link:link rdf:resource="#item_16"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Animals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Crystallography, X-Ray</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Models, Molecular</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Amino Acids, Branched-Chain</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Transaminases</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Amino Acid Sequence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Bacterial Proteins</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Catalytic Domain</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Molecular Sequence Data</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Mycobacterium tuberculosis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Protein Multimerization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Protein Structure, Quaternary</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Protein Structure, Tertiary</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sequence Alignment</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The 1.9 A structure of the branched-chain amino-acid transaminase (IlvE) from Mycobacterium tuberculosis</dc:title>
+        <dcterms:abstract>Unlike mammals, bacteria encode enzymes that synthesize branched-chain amino acids. The pyridoxal 50-phosphate-dependent transaminase performs the final biosynthetic step in these pathways, converting keto acid precursors into -amino acids. The branched-chain amino-acid transaminase from Mycobacterium tuberculosis (MtIlvE) has been crystallized and its structure has been solved at 1.9 angstrom resolution. The MtIlvE monomer is composed of two domains that interact to form the active site. The biologically active form of IlvE is a homodimer in which each monomer contributes a substrate-specificity loop to the partner molecule. Additional substrate selectivity may be imparted by a conserved N-terminal Phe30 residue, which has previously been observed to shield the active site in the type IV fold homodimer. The active site of MtIlvE contains density corresponding to bound PMP, which is likely to be a consequence of the presence of tryptone in the crystallization medium. Additionally, two cysteine residues are positioned at the dimer interface for disulfide-bond formation under oxidative conditions. It is unknown whether they are involved in any regulatory activities analogous to those of the human mitochondrial branched-chain amino-acid transaminase.</dcterms:abstract>
+        <dc:date>2009-11-01</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 19923721
+PMCID: PMC2777029</dc:description>
+        <bib:pages>1071-1077</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1744-3091">
+        <prism:volume>65</prism:volume>
+        <dc:title>Acta Crystallographica. Section F, Structural Biology and Crystallization Communications</dc:title>
+        <dc:identifier>DOI 10.1107/S1744309109036690</dc:identifier>
+        <prism:number>Pt 11</prism:number>
+        <dcterms:alternative>Acta Crystallogr Sect F Struct Biol Cryst Commun</dcterms:alternative>
+        <dc:identifier>ISSN 1744-3091</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_17">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/17/Tremblay and Blanchard - 2009 - The 1.9 A structure of the branched-chain amino-ac.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc2777029?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:36:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_16">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/19923721</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:36:00</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_18">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1362-4962"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Yang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Xiaocong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gan</foaf:surname>
+                        <foaf:givenName>Jianhong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Shuang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xiao</foaf:surname>
+                        <foaf:givenName>Zhi-Xiong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cao</foaf:surname>
+                        <foaf:givenName>Yang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_20"/>
+        <link:link rdf:resource="#item_19"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Algorithms</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Binding Sites</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>GTPase-Activating Proteins</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Guanine Nucleotide Exchange Factors</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ligands</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Molecular Docking Simulation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Protein Binding</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Proteins</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Software</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>CB-Dock2: improved protein-ligand blind docking by integrating cavity detection, docking and homologous template fitting</dc:title>
+        <dcterms:abstract>Protein-ligand blind docking is a powerful method for exploring the binding sites of receptors and the corresponding binding poses of ligands. It has seen wide applications in pharmaceutical and biological researches. Previously, we proposed a blind docking server, CB-Dock, which has been under heavy use (over 200 submissions per day) by researchers worldwide since 2019. Here, we substantially improved the docking method by combining CB-Dock with our template-based docking engine to enhance the accuracy in binding site identification and binding pose prediction. In the benchmark tests, it yielded the success rate of ∼85% for binding pose prediction (RMSD &lt; 2.0 Å), which outperformed original CB-Dock and most popular blind docking tools. This updated docking server, named CB-Dock2, reconfigured the input and output web interfaces, together with a highly automatic docking pipeline, making it a particularly efficient and easy-to-use tool for the bioinformatics and cheminformatics communities. The web server is freely available at https://cadd.labshare.cn/cb-dock2/.</dcterms:abstract>
+        <dc:date>2022-07-05</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>CB-Dock2</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 35609983
+PMCID: PMC9252749</dc:description>
+        <bib:pages>W159-W164</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1362-4962">
+        <prism:volume>50</prism:volume>
+        <dc:title>Nucleic Acids Research</dc:title>
+        <dc:identifier>DOI 10.1093/nar/gkac394</dc:identifier>
+        <prism:number>W1</prism:number>
+        <dcterms:alternative>Nucleic Acids Res</dcterms:alternative>
+        <dc:identifier>ISSN 1362-4962</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_20">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/20/Liu et al. - 2022 - CB-Dock2 improved protein-ligand blind docking by.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/nar/article-pdf/50/W1/W159/44379780/gkac394.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:37:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_19">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/35609983</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:37:19</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_21">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2296-4185"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roura Padrosa</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alaux</foaf:surname>
+                        <foaf:givenName>Raphael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenName>Phillip</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dreveny</foaf:surname>
+                        <foaf:givenName>Ingrid</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>López-Gallego</foaf:surname>
+                        <foaf:givenName>Fernando</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paradisi</foaf:surname>
+                        <foaf:givenName>Francesca</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_23"/>
+        <link:link rdf:resource="#item_22"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>pyridoxal phosphate</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>biocatalysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>protein engineering</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>protein stability</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>transaminase</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Enhancing PLP-Binding Capacity of Class-III ω-Transaminase by Single Residue Substitution</dc:title>
+        <dcterms:abstract>Transaminases are pyridoxal-5'-phosphate (PLP) binding enzymes, broadly studied for their potential industrial application. Their affinity for PLP has been related to their performance and operational stability and while significant differences in PLP requirements have been reported, the environment of the PLP-binding pocket is highly conserved. In this study, thorough analysis of the residue interaction network of three homologous transaminases Halomonas elongata (HeTA), Chromobacterium violaceum (CvTA), and Pseudomonas fluorescens (PfTA) revealed a single residue difference in their PLP binding pocket: an asparagine at position 120 in HeTA. N120 is suitably positioned to interact with an aspartic acid known to protonate the PLP pyridinium nitrogen, while the equivalent position is occupied by a valine in the other two enzymes. Three different mutants were constructed (HeTA-N120V, CvTA-V124N, and PfTA-V129N) and functionally analyzed. Notably, in HeTA and CvTA, the asparagine variants, consistently exhibited a higher thermal stability and a significant decrease in the dissociation constant (K d ) for PLP, confirming the important role of N120 in PLP binding. Moreover, the reaction intermediate pyridoxamine-5'-phosphate (PMP) was released more slowly into the bulk, indicating that the mutation also enhances their PMP binding capacity. The crystal structure of PfTA, elucidated in this work, revealed a tetrameric arrangement with the PLP binding sites near the subunit interface. In this case, the V129N mutation had a negligible effect on PLP-binding, but it reduced its temperature stability possibly destabilizing the quaternary structure.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 31681755
+PMCID: PMC6813460</dc:description>
+        <bib:pages>282</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2296-4185">
+        <prism:volume>7</prism:volume>
+        <dc:title>Frontiers in Bioengineering and Biotechnology</dc:title>
+        <dc:identifier>DOI 10.3389/fbioe.2019.00282</dc:identifier>
+        <dcterms:alternative>Front Bioeng Biotechnol</dcterms:alternative>
+        <dc:identifier>ISSN 2296-4185</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_23">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/23/Roura Padrosa et al. - 2019 - Enhancing PLP-Binding Capacity of Class-III ω-Tran.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.frontiersin.org/articles/10.3389/fbioe.2019.00282/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:47:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_22">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/31681755</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:47:24</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_24">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1469-221X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Percudani</foaf:surname>
+                        <foaf:givenName>Riccardo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peracchi</foaf:surname>
+                        <foaf:givenName>Alessio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_26"/>
+        <link:link rdf:resource="#item_25"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Animals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Pyridoxal Phosphate</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Enzymes</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Substrate Specificity</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>A genomic overview of pyridoxal-phosphate-dependent enzymes</dc:title>
+        <dcterms:abstract>Enzymes that use the cofactor pyridoxal phosphate (PLP) constitute a ubiquitous class of biocatalysts. Here, we analyse their variety and genomic distribution as an example of the current opportunities and challenges for the study of protein families. In many free-living prokaryotes, almost 1.5% of all genes code for PLP-dependent enzymes, but in higher eukaryotes the percentage is substantially lower, consistent with these catalysts being involved mainly in basic metabolism. Assigning the function of PLP-dependent enzymes simply on the basis of sequence criteria is not straightforward because, as a consequence of their common mechanistic features, these enzymes have intricate evolutionary relationships. Thus, many genes for PLP-dependent enzymes remain functionally unclassified, and several of them might encode undescribed catalytic activities. In addition, PLP-dependent enzymes often show catalytic promiscuity (that is, a single enzyme catalyses different reactions), implying that an organism can have more PLP-dependent activities than it has genes for PLP-dependent enzymes. This observation presumably applies to many other classes of protein-encoding genes.</dcterms:abstract>
+        <dc:date>2003-09</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 12949584
+PMCID: PMC1326353</dc:description>
+        <bib:pages>850-854</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1469-221X">
+        <prism:volume>4</prism:volume>
+        <dc:title>EMBO reports</dc:title>
+        <dc:identifier>DOI 10.1038/sj.embor.embor914</dc:identifier>
+        <prism:number>9</prism:number>
+        <dcterms:alternative>EMBO Rep</dcterms:alternative>
+        <dc:identifier>ISSN 1469-221X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_26">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/26/Percudani and Peracchi - 2003 - A genomic overview of pyridoxal-phosphate-dependen.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc1326353?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:48:39</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_25">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/12949584</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:48:34</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_30">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0079-6603"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hutson</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_31"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Animals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Transaminases</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Substrate Specificity</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Amination</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Enzyme Inhibitors</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Structure-Activity Relationship</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sulfhydryl Compounds</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Structure and function of branched chain aminotransferases</dc:title>
+        <dcterms:abstract>Branched chain aminotransferases (BCATs) catalyze transamination of the branched chain amino acids (BCAAs) leucine, isoleucine, and valine. Except for the Escherichia coli and Salmonella proteins, which are homohexamers arranged as a double trimer, the BCATs are homodimers. Structurally, the BCATs belong to the fold type IV class of pyridoxal phosphate (PLP) enzymes. Other members are D-alanine aminotransferase and 4-amino-4-deoxychorismate lyase. Catalysis is on the re face of the PLP cofactor, whereas in other classes, catalysis occurs from the si face of PLP. Crystal structures of the fold type IV proteins show that they are distinct from the fold type I aspartate aminotransferase family and represent a new protein fold. Because the fold type IV enzymes catalyze diverse reactions, it is not surprising that the greatest structural similarities involve residues that participate in PLP binding rather than residues involved in substrate binding. The BCATs are widely distributed in the bacterial kingdom, where they are involved in the synthesis/degradation of the BCAAs. Bacteria contain a single BCAT. In eukaryotes there are two isozymes, one is mitochondrial (BCATm) and the other is cytosolic (BCATc). In mammals, BCATm is in most tissues, and BCATm is thought to be important in body nitrogen metabolism. BCATc is largely restricted to the central nervous system (CNS). Recently, BCATc has been recognized as a target of the neuroactive drug gabapentin. BCATc is involved in excitatory neurotransmitter glutamate synthesis in the CNS. Ongoing structural studies of the BCATs may facilitate the design of therapeutic compounds to treat neurodegenerative disorders involving disturbances of the glutamatergic system.</dcterms:abstract>
+        <dc:date>2001</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 11642362</dc:description>
+        <bib:pages>175-206</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0079-6603">
+        <prism:volume>70</prism:volume>
+        <dc:title>Progress in Nucleic Acid Research and Molecular Biology</dc:title>
+        <dc:identifier>DOI 10.1016/s0079-6603(01)70017-7</dc:identifier>
+        <dcterms:alternative>Prog Nucleic Acid Res Mol Biol</dcterms:alternative>
+        <dc:identifier>ISSN 0079-6603</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_31">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/11642362</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:50:06</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.3749">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1469-896X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Holm</foaf:surname>
+                        <foaf:givenName>Liisa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_33"/>
+        <link:link rdf:resource="#item_34"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>fold classification</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>open-source software</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>recurrent domains</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>structural alignment</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>DALI and the persistence of protein shape</dc:title>
+        <dcterms:abstract>DALI is a popular resource for comparing protein structures. The software is based on distance-matrix alignment. The associated web server provides tools to navigate, integrate and organize some data pushed out by genomics and structural genomics. The server has been running continuously for the past 25 years. Structural biologists routinely use DALI to compare a new structure against previously known protein structures. If significant similarities are discovered, it may indicate a distant homology, that is, that the structures are of shared origin. This may be significant in determining the molecular mechanisms, as these may remain very similar from a distant predecessor to the present day, for example, from the last common ancestor of humans and bacteria. Meta-analysis of independent reference-based evaluations of alignment accuracy and fold discrimination shows DALI at top rank in six out of 12 studies. The web server and standalone software are available from http://ekhidna2.biocenter.helsinki.fi/dali.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Wiley Online Library</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.3749</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:51:51</dcterms:dateSubmitted>
+        <dc:rights>© 2019 The Protein Society</dc:rights>
+        <dc:description>_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3749</dc:description>
+        <bib:pages>128-140</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1469-896X">
+        <prism:volume>29</prism:volume>
+        <dc:title>Protein Science</dc:title>
+        <dc:identifier>DOI 10.1002/pro.3749</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 1469-896X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_33">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/33/Holm - 2020 - DALI and the persistence of protein shape.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.3749</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:51:58</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/34/pro.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3749</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:52:04</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Book%3A_Organic_Chemistry_with_a_Biological_Emphasis_v2.0_(Soderberg)/17%3A_The_Organic_Chemistry_of_Vitamins/17.02%3A_Pyridoxal_Phosphate_(Vitamin_B6)">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Chemistry LibreTexts</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_36"/>
+        <dc:title>17.2: Pyridoxal Phosphate (Vitamin B6)</dc:title>
+        <dcterms:abstract>The coenzyme pyridoxal phosphate (commonly abbreviated PLP) is the active form of vitamin  B6 , or pyridoxine. PLP is required for over 100 different reactions in human metabolism, primarily in the …</dcterms:abstract>
+        <dc:date>2018-08-10T03:28:28Z</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>17.2</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Book%3A_Organic_Chemistry_with_a_Biological_Emphasis_v2.0_(Soderberg)/17%3A_The_Organic_Chemistry_of_Vitamins/17.02%3A_Pyridoxal_Phosphate_(Vitamin_B6)</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:57:42</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_36">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/36/17.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Book%3A_Organic_Chemistry_with_a_Biological_Emphasis_v2.0_(Soderberg)/17%3A_The_Organic_Chemistry_of_Vitamins/17.02%3A_Pyridoxal_Phosphate_(Vitamin_B6)</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 01:57:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_38">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soderberg</foaf:surname>
+                        <foaf:givenName>Timothy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_37"/>
+        <dc:title>Organic Chemistry with a Biological Emphasis Volume I</dc:title>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/37/Soderberg - Organic Chemistry with a Biological Emphasis Volum.pdf"/>
+        <dc:title>Soderberg - Organic Chemistry with a Biological Emphasis Volum.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://digitalcommons.morris.umn.edu/cgi/viewcontent.cgi?article=1000&amp;context=chem_facpubs</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 02:01:49</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.mayoclinic.org/diseases-conditions/giardia-infection/symptoms-causes/syc-20372786">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Mayo Clinic</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_40"/>
+        <dc:title>Giardiasis: When it's not safe to drink the water-Giardia infection (giardiasis) - Symptoms &amp; causes</dc:title>
+        <dcterms:abstract>Stomach cramps, nausea and watery diarrhea could indicate a giardia infection. Find out how to treat and prevent this waterborne parasite.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:shortTitle>Giardiasis</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mayoclinic.org/diseases-conditions/giardia-infection/symptoms-causes/syc-20372786</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 02:05:54</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_40">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/40/syc-20372786.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mayoclinic.org/diseases-conditions/giardia-infection/symptoms-causes/syc-20372786</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 02:06:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_41">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0893-8512"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Adam</foaf:surname>
+                        <foaf:givenName>R. D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_43"/>
+        <link:link rdf:resource="#item_42"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Animals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Antigenic Variation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Antigens, Protozoan</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Genes, Protozoan</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Giardia lamblia</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Giardiasis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Host-Parasite Interactions</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Biology of Giardia lamblia</dc:title>
+        <dcterms:abstract>Giardia lamblia is a common cause of diarrhea in humans and other mammals throughout the world. It can be distinguished from other Giardia species by light or electron microscopy. The two major genotypes of G. lamblia that infect humans are so different genetically and biologically that they may warrant separate species or subspecies designations. Trophozoites have nuclei and a well-developed cytoskeleton but lack mitochondria, peroxisomes, and the components of oxidative phosphorylation. They have an endomembrane system with at least some characteristics of the Golgi complex and encoplasmic reticulum, which becomes more extensive in encysting organisms. The primitive nature of the organelles and metabolism, as well as small-subunit rRNA phylogeny, has led to the proposal that Giardia spp. are among the most primitive eukaryotes. G. lamblia probably has a ploidy of 4 and a genome size of approximately 10 to 12 Mb divided among five chromosomes. Most genes have short 5' and 3' untranslated regions and promoter regions that are near the initiation codon. Trophozoites exhibit antigenic variation of an extensive repertoire of cysteine-rich variant-specific surface proteins. Expression is allele specific, and changes in expression from one vsp gene to another have not been associated with sequence alterations or gene rearrangements. The Giardia genome project promises to greatly increase our understanding of this interesting and enigmatic organism.</dcterms:abstract>
+        <dc:date>2001-07</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 11432808
+PMCID: PMC88984</dc:description>
+        <bib:pages>447-475</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0893-8512">
+        <prism:volume>14</prism:volume>
+        <dc:title>Clinical Microbiology Reviews</dc:title>
+        <dc:identifier>DOI 10.1128/CMR.14.3.447-475.2001</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Clin Microbiol Rev</dcterms:alternative>
+        <dc:identifier>ISSN 0893-8512</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_43">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/43/Adam - 2001 - Biology of Giardia lamblia.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc88984?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 02:08:08</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_42">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/11432808</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 02:08:03</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_44">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1932-6203"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hajare</foaf:surname>
+                        <foaf:givenName>Sunil Tulshiram</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chekol</foaf:surname>
+                        <foaf:givenName>Yeinewub</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chauhan</foaf:surname>
+                        <foaf:givenName>Nitin Mahendra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_46"/>
+        <link:link rdf:resource="#item_45"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Animals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Giardia lamblia</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Giardiasis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Child</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cross-Sectional Studies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ethiopia</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Government</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Parasites</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Prevalence</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Risk Factors</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Water</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Assessment of prevalence of Giardia lamblia infection and its associated factors among government elementary school children from Sidama zone, SNNPR, Ethiopia</dc:title>
+        <dcterms:abstract>Giardiasis is a protozoan disease caused by the parasite Giardia lamblia. Around 200 million people are infected worldwide annually while, 500,000 deaths were reported each year. The infection rates were between 2-5% in the developed nations and 20-30% in the developing countries. The parasite is associated with poverty, poor sanitation, lack of clean and safe drinking water supply, and poor personal hygiene. The aim of our study was to assess the prevalence rate and associated risk factors of G. lamblia infection among the elementary school children at Loka Abaya town, Ethiopia. A cross-sectional study was conducted from December 2018 to July 2019. A total number of 422 students were selected by using simple random sampling. Structured and semi-structured questionnaire was used to identify known risk factors such as environmental, socio-demographic, and behavioural. Stool specimens were collected from the study subjects and examined using direct smear method, microscopically. A bivariate and multivariate logistic regression analysis was done. P value less than 0.05 at 95% of the confidence interval was considered statistically significant. The overall prevalence rates of G. lamblia infection were 27.1%. Rural school from Aregeda [AOR: 9.997, P = 0.005], age group of 6-9 years [AOR: 2.305, P = 0.019], consuming tap water [AOR: 0.011, P = 0.006], hand washing habit after defecation with water only [AOR = 0.313, P = 0.040], use of soap and water [AOR: 0.046, P = 0.000] were the factors which are found to be associated with the parasite infection when compared to urban school. As such, the prevalence of G. lamblia infection was found to be high in the studied area among school children. Thus, scaling-up of access to safe water, toilets, education, and health facilities are required to possibly eradicate this predicament.</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 35290402
+PMCID: PMC8923448</dc:description>
+        <bib:pages>e0264812</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1932-6203">
+        <prism:volume>17</prism:volume>
+        <dc:title>PloS One</dc:title>
+        <dc:identifier>DOI 10.1371/journal.pone.0264812</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>PLoS One</dcterms:alternative>
+        <dc:identifier>ISSN 1932-6203</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_46">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/46/Hajare et al. - 2022 - Assessment of prevalence of Giardia lamblia infect.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0264812&amp;type=printable</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 02:09:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_45">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/35290402</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 02:09:35</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.cdc.gov/mmwr/volumes/70/wr/mm7009a2.htm">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0149-21951545-861X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Conners</foaf:surname>
+                        <foaf:givenName>Erin E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_48"/>
+        <link:link rdf:resource="#item_49"/>
+        <dc:title>Giardiasis Outbreaks — United States, 2012–2017</dc:title>
+        <dcterms:abstract>This report describes giardiasis outbreaks in 26 states</dcterms:abstract>
+        <dc:date>2021</dc:date>
+        <z:language>en-us</z:language>
+        <z:libraryCatalog>www.cdc.gov</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cdc.gov/mmwr/volumes/70/wr/mm7009a2.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 02:19:14</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0149-21951545-861X">
+        <prism:volume>70</prism:volume>
+        <dc:title>MMWR. Morbidity and Mortality Weekly Report</dc:title>
+        <dc:identifier>DOI 10.15585/mmwr.mm7009a2</dc:identifier>
+        <dcterms:alternative>MMWR Morb Mortal Wkly Rep</dcterms:alternative>
+        <dc:identifier>ISSN 0149-21951545-861X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_48">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/48/Conners - 2021 - Giardiasis Outbreaks — United States, 2012–2017.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cdc.gov/mmwr/volumes/70/wr/pdfs/mm7009a2-H.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 02:19:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_49">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/49/mm7009a2.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cdc.gov/mmwr/volumes/70/wr/mm7009a2.htm?s_cid=mm7009a2_w#suggestedcitation</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-11 02:19:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_50">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1367-4811"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Capra</foaf:surname>
+                        <foaf:givenName>John A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Singh</foaf:surname>
+                        <foaf:givenName>Mona</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_51"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Amino Acid Sequence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Molecular Sequence Data</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sequence Alignment</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Algorithms</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Proteins</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Structure-Activity Relationship</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Amino Acids</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Conserved Sequence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Evolution, Molecular</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sequence Analysis, Protein</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sequence Homology, Nucleic Acid</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Predicting functionally important residues from sequence conservation</dc:title>
+        <dcterms:abstract>MOTIVATION: All residues in a protein are not equally important. Some are essential for the proper structure and function of the protein, whereas others can be readily replaced. Conservation analysis is one of the most widely used methods for predicting these functionally important residues in protein sequences.
+RESULTS: We introduce an information-theoretic approach for estimating sequence conservation based on Jensen-Shannon divergence. We also develop a general heuristic that considers the estimated conservation of sequentially neighboring sites. In large-scale testing, we demonstrate that our combined approach outperforms previous conservation-based measures in identifying functionally important residues; in particular, it is significantly better than the commonly used Shannon entropy measure. We find that considering conservation at sequential neighbors improves the performance of all methods tested. Our analysis also reveals that many existing methods that attempt to incorporate the relationships between amino acids do not lead to better identification of functionally important sites. Finally, we find that while conservation is highly predictive in identifying catalytic sites and residues near bound ligands, it is much less effective in identifying residues in protein-protein interfaces.
+AVAILABILITY: Data sets and code for all conservation measures evaluated are available at http://compbio.cs.princeton.edu/conservation/</dcterms:abstract>
+        <dc:date>2007-08-01</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 17519246</dc:description>
+        <bib:pages>1875-1882</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1367-4811">
+        <prism:volume>23</prism:volume>
+        <dc:title>Bioinformatics (Oxford, England)</dc:title>
+        <dc:identifier>DOI 10.1093/bioinformatics/btm270</dc:identifier>
+        <prism:number>15</prism:number>
+        <dcterms:alternative>Bioinformatics</dcterms:alternative>
+        <dc:identifier>ISSN 1367-4811</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_51">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/17519246</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-18 02:23:25</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_1">
+        <dc:title>First Draft: SBP</dc:title>
+        <dcterms:hasPart rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5392587/"/>
+        <dcterms:hasPart rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3483818/"/>
+        <dcterms:hasPart rdf:resource="//scripts.iucr.org/cgi-bin/paper?kw5019"/>
+        <dcterms:hasPart rdf:resource="#item_12"/>
+        <dcterms:hasPart rdf:resource="#item_15"/>
+        <dcterms:hasPart rdf:resource="#item_18"/>
+        <dcterms:hasPart rdf:resource="#item_21"/>
+        <dcterms:hasPart rdf:resource="#item_24"/>
+        <dcterms:hasPart rdf:resource="#item_30"/>
+        <dcterms:hasPart rdf:resource="https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.3749"/>
+        <dcterms:hasPart rdf:resource="https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Book%3A_Organic_Chemistry_with_a_Biological_Emphasis_v2.0_(Soderberg)/17%3A_The_Organic_Chemistry_of_Vitamins/17.02%3A_Pyridoxal_Phosphate_(Vitamin_B6)"/>
+        <dcterms:hasPart rdf:resource="#item_38"/>
+        <dcterms:hasPart rdf:resource="https://www.mayoclinic.org/diseases-conditions/giardia-infection/symptoms-causes/syc-20372786"/>
+        <dcterms:hasPart rdf:resource="#item_41"/>
+        <dcterms:hasPart rdf:resource="#item_44"/>
+        <dcterms:hasPart rdf:resource="https://www.cdc.gov/mmwr/volumes/70/wr/mm7009a2.htm"/>
+        <dcterms:hasPart rdf:resource="#item_50"/>
+    </z:Collection>
+</rdf:RDF>
